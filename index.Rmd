@@ -1,0 +1,51 @@
+--- 
+title:  <center>ESTUDIO LONGITUDINAL SOCIAL DE CHILE (ELSOC 2021)</center>
+author:
+- name: Roberto González
+- name: Matías Bargsted
+- name: Daniel Miranda
+- name: Benjamín Muñoz
+- name: Alejandro Plaza
+date: "`r Sys.Date()`"
+output:
+  bookdown::gitbook:
+    lib_dir: assets
+    config:
+      toolbar:
+        position: static
+  bookdown::pdf_book:
+    extra_dependencies: ["flafter"]
+    toc: no
+    includes:
+      in_header: preamble.tex
+      before_body: portada.tex
+      after_body: codigos.tex
+site: bookdown::bookdown_site
+documentclass: book
+classoption: openany
+bibliography:
+- book.bib
+- packages.bib
+biblio-style: apalike
+link-citations: yes
+description: This is a minimal example of using the bookdown package to write a book.
+  The output format for this example is bookdown::gitbook.
+subtitle: MANUAL DE USUARIO DE BASE DE DATOS CORTE TRANSVERSAL
+---
+
+# Presentación {#present}
+
+```{js, echo = FALSE}
+title=document.getElementById('header');
+title.innerHTML = '<img src="imagenes/ELSOC.png" alt="ELSOC">' + title.innerHTML
+```
+
+El Estudio Longitudinal  Social de Chile (ELSOC) es una encuesta desarrollada para analizar intertemporalmente la evolución del conflicto y cohesión en la sociedad chilena, basándose en modelos conceptuales descritos en la literatura nacional e internacional que abordan dichas materias. De este modo, se orienta a examinar los principales antecedentes, factores moderadores y mediadores, así como las principales consecuencias asociadas al desarrollo de distintas formas de conflicto y cohesión social en Chile. Por lo tanto, su objetivo fundamental es constituirse en un insumo empírico para la comprensión de las creencias, actitudes y percepciones de los chilenos hacia las distintas dimensiones de la convivencia y el conflicto, y como éstas cambian a lo largo del tiempo.
+
+Esta encuesta fue diseñada por investigadores pertenecientes al Centro de Estudios de Conflicto y Cohesión Social (COES). El Centro está patrocinado por la Universidad de Chile y la Pontificia Universidad Católica de Chile y cuenta como instituciones asociadas a la Universidad Diego Portales y la Universidad Adolfo Ibáñez. Si desea obtener más información sobre el Centro, visite nuestra [página web](http://www.coes.cl/). COES es una iniciativa que desde 2013 cuenta con el financiamiento ^[Proyecto CONICYT/FONDAP/15130009] del Fondo de Financiamiento de Centros de Investigación en Áreas Prioritarias (FONDAP) de la Comisión Nacional de Investigación Científica y Tecnológica (CONICYT), organismo dependiente del Ministerio de Educación de Chile. El levantamiento de datos de ELSOC (quinta ola de medición 2021) estuvo a cargo del Centro MicroDatos (CMD) de la Universidad de Chile.
+
+El presente documento contiene  información relevante para los usuarios de la base de datos de la quinta ola del estudio longitudinal, correspondiente al año 2021. **Este Manual de Usuario enfatiza la dimensión de corte transversal de ELSOC 2021**. Los reportes técnicos relativos a las propiedades longitudinales de ELSOC se encuentran en el Manual de Usuario Longitudinal (ELSOC 2016-2021). De todos modos, algunos aspectos centrales de la evolución inter-olas de ELSOC son descritos. Se recomienda a los usuarios interesados en realizar análisis panel consultar de manera adicional el Manual de Usuario Longitudinal.
+
+El Manual se estructura en torno a secciones temáticas. La siguiente sección describe brevemente el diseño del instrumento, lo cual es complementado con la ficha técnica del estudio. La tercera sección reseña el diseño muestral general del panel como también los detalles específicos de la quinta ola del estudio. En el siguiente apartado se resumen los principales aspectos del trabajo de campo, enfatizando las particularidades del proceso de reentrevista a los participantes. El quinto apartado corresponde al registro de versiones de la base de datos y detalla el protocolo de uso de éstas.  Por último, se incluye un apartado con orientaciones básicas para el análisis y el libro de códigos de las variables incluidas en la base de datos de ELSOC 2021. 
+
+

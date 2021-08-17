@@ -1,0 +1,21 @@
+# Diseño del Instrumento {#dis_ins}
+
+A continuación se presenta el desarrollo del cuestionario del ELSOC. El instrumento de recolección de información consiste en un cuestionario estructurado (tipo encuesta) aplicado cara a cara a todos los participantes. Dicha aplicación se hace utilizando el sistema **CAPI** (Encuestas personales asistidas por computadores). El cuestionario fue diseñado para medir una serie de aspectos conceptualmente  relevantes que permiten caracterizar los niveles  de conflicto y cohesión social en Chile, enfatizando su evolución a lo largo del tiempo. Los principales temas de interés analítico abordados por la encuesta corresponden a los módulos en los cuales se estructura:
+
+1. **Ciudadanía y Democracia.**
+2. **Redes sociales e Interacciones inter-grupales.**
+3. **Legitimidad y desigualdad social.**
+4. **Conflicto social.**
+5. **Dimensión barrial y territorial.**
+6. **Salud y bienestar.**
+7. **Caracterización Socio demográfica.**
+
+## Proceso de Diseño {#proc-dis}
+
+
+## Diferencias entre Cuestionarios {#dif-cuest}
+
+
+## Ficha Técnica
+
+

@@ -1,0 +1,2 @@
+# Dudas y Consultas
+En caso de que detecte problemas con la base de datos, desee plantear solicitudes y/o tenga dudas sobre aspectos no cubiertos por el presente Manual de Usuario, las cuales no puedan ser resueltas por otros medios, puede comunicarse con el Equipo de Encuestas COES al correo electrónico [encuestacoes@gmail.com](encuestacoes@gmail.com). El equipo procesará su solicitud y tratará de contestar en el más breve plazo.

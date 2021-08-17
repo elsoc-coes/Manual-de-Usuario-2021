@@ -1,0 +1,21 @@
+book_filename: "Manual_2017"
+output_dir: "docs"
+new_session: no
+language:
+  label:
+    fig: 'Figura '
+    tab: 'Cuadro '
+    eq: 'Ecuación '
+    thm: 'Teorema '
+    lem: 'Lema '
+    def: 'Definición '
+    cor: 'Corolario '
+    prp: 'Proposición '
+    exm: 'Ejemplo '
+    exr: 'Ejercicio '
+    proof: 'Demostración. '
+    remark: 'Nota: '
+    solution: 'Solución. '
+  ui:
+    chapter_name: ''
+delete_merged_file: yes
