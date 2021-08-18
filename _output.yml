@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Manual de Usuario 2017</a></li>
+        <li><a href="./">Manual de Usuario 2021</a></li>
     download: ["pdf"]
 output:
   bookdown::gitbook:
